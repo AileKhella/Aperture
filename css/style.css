@@ -84,6 +84,9 @@ header nav ul li:last-of-type a{
 
 }
 /*new section*/
+.new_section{
+    max-width: 900px;
+}
 /*Sunset*/
 .sunset{
     background-image: url("../images/sunset.jpg");
