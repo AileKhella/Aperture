@@ -7,7 +7,7 @@
 }
 header{
     background-color: #181818;
-    padding: 24px 0px;
+    padding: 24px 0;
 }
 header .container{
     max-width: 1200px;
@@ -81,12 +81,6 @@ header nav ul li:last-of-type a{
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
-
-}
-/*new section*/
-.new_section{
-    max-width: 900px;
-    margin: auto;
 }
 /*Sunset*/
 .sunset{
