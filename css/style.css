@@ -1,15 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
-header{
+
+header {
     background-color: #181818;
     padding: 24px 0;
 }
-header .container{
+header .container {
     max-width: 1200px;
     margin: auto;
     padding: 0 20px 0 32px;
@@ -18,39 +19,40 @@ header .container{
     justify-content: space-between;
     align-items: center;
 }
-header nav ul{
+header nav ul {
     display: flex;
     list-style: none;
     align-items: center;
 }
-header nav ul li{
+header nav ul li {
     margin-left: 32px;
 
 }
-header nav ul li a{
+header nav ul li a {
     font-size: 15px;
     line-height: 20px;
     color: #ffffff;
     text-decoration: none;
 }
-header nav ul li:first-of-type{
-    margin-right: 24px ;
+header nav ul li:first-of-type {
+    margin-right: 24px;
 }
-header nav ul li:first-of-type a{
+header nav ul li:first-of-type a {
     font-size: 13px;
 }
-header nav ul li:last-of-type{
+header nav ul li:last-of-type {
     margin-left: 31px;
 }
-header nav ul li:last-of-type a{
+header nav ul li:last-of-type a {
     background: #FFFFFF;
     border-radius: 14px;
     padding: 11px 20px;
     font-size: 16px;
     color: black;
 }
+
 /*Main banner*/
-.main_banner{
+.main_banner {
     background-image: url("../images/image1.jpg");
     background-size: cover;
     height: calc(100vh - 83px);
@@ -60,30 +62,112 @@ header nav ul li:last-of-type a{
     padding-bottom: 71px;
     box-sizing: border-box;
 }
-.main_banner_article{
+.main_banner_article {
     text-align: center;
     max-width: 580px;
-    }
-.main_banner_article h3{
+}
+.main_banner_article h3 {
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #C0C0C0;
-    }
-.main_banner_article h1{
+}
+.main_banner_article h1 {
     font-size: 54px;
     line-height: 59px;
     color: #ffffff;
     margin-bottom: 18px;
 }
-.main_banner_article p{
+.main_banner_article p {
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
 }
+
+/*What*/
+.what {
+    background-color: #000000;
+    padding-top: 113px;
+    padding-bottom: 84px;
+}
+.what .container {
+    max-width: 1168px;
+    margin: auto;
+}
+.what .container h3 {
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.what .container h4 {
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 42px;
+}
+.what .container .cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cards article{
+    max-width: 576px;
+    margin-bottom: 16px;
+    position: relative;
+
+}
+.cards article img {
+    display: block;
+    width: 100%;
+}
+.c_discr{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+}
+.what .c_discr h4{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform:uppercase;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: left;
+    }
+.c_discr p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 20px;
+}
+.what .cards a {
+    font-size: 15px;
+    line-height: 20px;
+    padding-right: 10px;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 14px;
+    color: black;
+    display: inline-flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.what .cards a::before {
+    content: "";
+    height: 32px;
+    width: 32px;
+    border-radius: 42%;
+    background-color: black;
+    margin: 5px;
+}
+
 /*Sunset*/
-.sunset{
+.sunset {
     background-image: url("../images/sunset.jpg");
     background-size: cover;
     min-height: 600px;
@@ -93,13 +177,13 @@ header nav ul li:last-of-type a{
     padding-right: 62px;
     box-sizing: border-box;
 }
-.sunset article{
+.sunset article {
     max-width: 298px;
     font-size: 14px;
     line-height: 20px;
     text-align: left;
-    }
-.sunset article h4, .monstera article h4, .stars_fall article h4{
+}
+.sunset article h4, .monstera article h4, .stars_fall article h4 {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #ffffff;
@@ -107,8 +191,38 @@ header nav ul li:last-of-type a{
 .sunset article p, .monstera article p, .stars_fall article p {
     color: #C0C0C0;
 }
+
+
+/*Past clients*/
+.past_clients{
+    background-color: #000000;
+    padding-top: 113px;
+    padding-bottom: 140px;
+    }
+.past_clients .container{
+    max-width: 1076px;
+    margin: auto;
+    text-align: center;
+}
+.past_clients .container h2 {
+    font-size: 40px;
+    line-height: 42px;
+    color: white;
+    margin-bottom: 15px;
+}
+.past_clients .container h4 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #C0C0C0;
+    margin-bottom: 82px;
+}
+.container .pc_logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 /*Monstera*/
-.monstera{
+.monstera {
     background-image: url("../images/mnstera.jpg");
     background-size: cover;
     min-height: 600px;
@@ -118,15 +232,15 @@ header nav ul li:last-of-type a{
     padding-right: 87px;
     box-sizing: border-box;
 }
-
-.monstera article{
+.monstera article {
     max-width: 273px;
     font-size: 14px;
     line-height: 20px;
     text-align: left;
 }
+
 /*Stars fall*/
-.stars_fall{
+.stars_fall {
     background-image: url("../images/star_fall.jpg");
     background-size: cover;
     min-height: 600px;
@@ -135,39 +249,40 @@ header nav ul li:last-of-type a{
     align-items: center;
     padding-right: 106px;
     box-sizing: border-box;
-    }
-.stars_fall article{
+}
+.stars_fall article {
     max-width: 254px;
     font-size: 14px;
     line-height: 20px;
     text-align: left;
 }
+
 /*Need help*/
-.need_help{
-    background-color:rgba(0, 0, 0, 1);
+.need_help {
+    background-color: rgba(0, 0, 0, 1);
     padding: 113px 0 108px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.need_help .container{
+.need_help .container {
     max-width: 571px;
     text-align: center;
 
-       }
-.need_help .container h2{
+}
+.need_help .container h2 {
     font-size: 40px;
     line-height: 42px;
     color: white;
     margin-bottom: 15px;
 }
-.need_help .container h4{
+.need_help .container h4 {
     font-size: 24px;
     line-height: 30px;
     color: #C0C0C0;
     margin-bottom: 22px;
 }
-.need_help .container a{
+.need_help .container a {
     font-size: 16px;
     line-height: 20px;
     padding-right: 10px;
@@ -179,11 +294,11 @@ header nav ul li:last-of-type a{
     align-items: center;
     box-sizing: border-box;
 }
-.need_help .container a::before{
+.need_help .container a::before {
     content: "";
     height: 32px;
     width: 32px;
-    border-radius:42%;
+    border-radius: 42%;
     background-color: black;
     margin: 5px;
 }
