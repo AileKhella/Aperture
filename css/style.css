@@ -301,20 +301,71 @@ header nav ul li:last-of-type a {
     margin-bottom: 82px;
 }
 
-.container .pc_logo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
+/*.container .pc_logo {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*}*/
 .container .pc_logo a{
     display: inline-block;
     max-width: 128px;
     }
+/*Carousel*/
 .owl-carousel .owl-stage{
     display: flex;
     align-items: center;
 }
+.owl-nav .owl-prev{
+    position: absolute;
+    left: -30px;
+    top:30px;
+    height: 35px;
+    width: 35px;
+    background-color: aqua;!important;
+
+    /*background-image: url("/images/angle_left_solid.svg")!important;*/
+      }
+/*.owl-nav .owl-prev::after{*/
+/*    content: url("/images/angle_left_solid.svg");*/
+/*    width: 35px;*/
+/*    height: 35px;*/
+/*}*/
+.owl-nav .owl-next{
+    position: absolute;
+    right: -30px;
+    top: 30px;
+    height: 35px;
+    width: 35px;
+    background-color: aqua;!important;
+    /*background-image: url("/images/angle-right_solid.svg")!important;*/
+}
+.owl-dots .owl-dot span{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: black;
+    border: white solid 2px;
+}
+.owl-dots .owl-dot.active span{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
 
 /*Monstera*/
 .monstera {

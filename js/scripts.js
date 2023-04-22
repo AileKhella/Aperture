@@ -4,6 +4,8 @@ $(document).ready(function(){
         margin:0,
         nav:true,
         navText: [ '', ' ' ],
+        autoplay:true,
+        autoplayTimeout: 3000,
 
         responsive:{
             0:{
